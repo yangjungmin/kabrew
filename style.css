@@ -1,0 +1,305 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    position: fixed;
+    left: 30px; top: 10px;
+    z-index: 500; color: #fff;
+}
+.fixed-bg{
+    position: fixed;
+    top: 0;left: 0;width: 100%;height: 100%;
+}
+.slide {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    padding: 50px;
+}
+
+.slide-content {
+    padding-top: 200px;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 40px;
+}
+/* ---------------1장 ------------------------------ */
+
+/* ---------------2장 여우 걸어나오기 --------------- */
+
+.fox-1 img{
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    width: 300px;
+    transform: rotate(313deg); 
+}
+.fox-2 img{
+    position: absolute;
+    top: 260px;
+    right: 260px;
+    width: 500px;
+    transform: rotate(330deg);
+}
+.fox-3 img{
+    position: absolute;
+    top: 400px;
+    right: 760px;
+    width: 700px;
+    transform: rotate(348deg);
+}
+
+/* ---------------3장 ------------------------------ */
+.slide-content2 {
+    padding-top: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 40px;
+    padding: 200px;
+}
+.slide-content3 strong{
+    font-size: 40px;
+    position: absolute;
+    top: 520px;
+    right: 643px;
+}
+.fox-4 img{
+    position: absolute;
+    top: 400px;
+    right: 100px;
+    width: 600px;
+    transform: rotate(29deg);
+    
+}
+
+/* ---------------4장 ------------------------------ */
+
+.peach-1 img{
+    position: absolute;
+    top: -81px;
+    left: -68px;
+}
+.fox-5 img{
+    position: absolute;
+    top: 294px;
+    left: 260px;
+    width: 800px;
+    transform: rotate(29deg);
+}
+.slide-content4 strong{
+    font-size: 31px;
+    position: absolute;
+    top: 260px;
+    left: 500px;
+}
+
+/* ---------------5장 ------------------------------ */
+
+.peach-2 img{
+    position: absolute;
+    top: -81px;
+    left: -68px;
+}
+
+.peach-3 img{
+    position: absolute;
+    top: 440px;
+    left: 570px;
+}
+
+.peach-4 img{
+    position: absolute;
+    bottom: 88px;
+    right: 432px;
+    width: 300px;
+}
+.fox-6 img{
+    position: absolute;
+    bottom: 0px;
+    right: -286px;
+    width: 800px;
+    transform: rotate(335deg);
+}
+.slide-content5 strong{
+    font-size: 50px;
+    position: absolute;
+    top: 390px;
+    right: 300px;
+}
+
+/* ---------------6장 ------------------------------ */
+.slide1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+
+.back img{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.fox-7 img{
+    position: absolute;
+    bottom: 2px;
+    right: 76px;
+    width: 500px;
+    transform: rotate(358deg);
+}
+
+.fox-8 img{
+    position: absolute;
+    bottom: -5px;
+    right: 500px;
+    width: 500px;
+    transform: rotate(358deg);
+}
+
+.fox-9 img{
+    position: absolute;
+    bottom: -5px;
+    left: 480px;
+    width: 500px;
+    transform: rotate(358deg);
+}
+
+.peach-5 img{
+    position: absolute;
+    bottom: -117px;
+    left: -139px;
+    width: 800px;
+}
+
+.slide-content6 strong{
+    font-size: 50px;
+    position: absolute;
+    top: 354px;
+    left: 311px;
+    
+}
+
+/* ---------------7장 ------------------------------ */
+
+.back2 img{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.slide-content7 strong{
+    font-size: 40px;
+    position: absolute;
+    top: 354px;
+    left: 311px;
+    color: #fff;
+}
+
+.man-1 img{
+    position: absolute;
+    bottom: -6px;
+    left: 177px;
+    width: 400px;
+    transform: rotate(358deg);
+}
+
+.fox-10 img{
+    position: absolute;
+    bottom: 212px;
+    right: 480px;
+    width: 500px;
+    transform: rotate(358deg);
+}
+
+.peach-6 img{
+    position: absolute;
+    bottom: -2px;
+    right: 552px;
+    width: 800px;
+    transform: rotate(331deg);
+}
+
+/* ---------------8장 ------------------------------ */
+.slide-content8 p{
+    font-size: 35px;
+    position: absolute;
+    top: 254px;
+    left: 311px;
+    color: #fff;
+}
+
+/* ---------------9장 ------------------------------ */
+
+.back4 img{
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0;
+} 
+
+.fox-11 img{
+    position: absolute;
+    bottom: -142px;
+    left: -406px;
+    width: 1032px;
+    transform: rotate(328deg);
+}
+
+.fox-12 img{
+    position: absolute;
+    bottom: 294px;
+    left: 29px;
+    width: 800px;
+    transform: rotate(332deg);
+}
+
+.fox-13 img{
+    position: absolute;
+    left: 290px;
+    top: -139px;
+    width: 827px;
+    transform: rotate(122deg);
+}
+
+.fox-14 img{
+    position: absolute;
+    left: 702px;
+    top: 36px;
+    width: 695px;
+    transform: rotate(27deg);
+}
+
+.fox-15 img{
+    position: absolute;
+    right: 375px;
+    top: 331px;
+    width: 448px;
+    transform: rotate(41deg);
+}
+
+/* ---------------10장 ------------------------------ */
+
+.back5 img{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0
+}
